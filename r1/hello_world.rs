@@ -1,3 +1,5 @@
+static PI:f32=3.14;
+
 fn main() {
-    print!("Hello world!\n"); // ! cho biết là 1 macro chứ ko phải là một hàm
+    println!(PI); // ! cho biết là 1 macro chứ ko phải là một hàm
 }
